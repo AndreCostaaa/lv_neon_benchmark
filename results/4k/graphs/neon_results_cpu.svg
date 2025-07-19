@@ -1,7 +1,7 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
 <rect x="0" y="0" width="1200" height="800" opacity="1" fill="#F5F5F5" stroke="none"/>
 <text x="600" y="15" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="16.129032258064516" opacity="1" fill="#000000">
-CPU Usage (%) Comparison [drawsw_32b, drawsw_64b, neon_32b, neon_64b]
+3840x2160 - CPU Usage (%) [drawsw_32b, drawsw_64b, neon_32b, neon_64b]
 </text>
 <text x="10" y="388" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000" transform="rotate(270, 10, 388)">
 Scenes
@@ -9,6 +9,7 @@ Scenes
 <text x="605" y="790" dy="-0.5ex" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 CPU Usage (%)
 </text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="19,36 19,739 "/>
 <polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="20,740 1189,740 "/>
 <text x="29" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 0.0
@@ -113,7 +114,7 @@ CPU Usage (%)
 <rect x="20" y="721" width="678" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="680" width="738" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="638" width="177" height="10" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="597" width="738" height="9" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="597" width="767" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="556" width="915" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="514" width="826" height="10" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="473" width="738" height="9" opacity="1" fill="#64B464" stroke="none"/>
@@ -121,7 +122,7 @@ CPU Usage (%)
 <rect x="20" y="390" width="0" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="349" width="826" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="308" width="944" height="9" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="266" width="885" height="9" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="266" width="856" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="225" width="885" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="184" width="0" height="9" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="142" width="944" height="9" opacity="1" fill="#64B464" stroke="none"/>
@@ -137,7 +138,7 @@ CPU Usage (%)
 6
 </text>
 <text x="20" y="597" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-25
+26
 </text>
 <text x="20" y="556" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 31
@@ -161,7 +162,7 @@ CPU Usage (%)
 32
 </text>
 <text x="20" y="266" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-30
+29
 </text>
 <text x="20" y="225" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 30
@@ -249,15 +250,15 @@ CPU Usage (%)
 <rect x="20" y="703" width="678" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="661" width="738" height="10" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="620" width="206" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
-<rect x="20" y="579" width="738" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
-<rect x="20" y="537" width="944" height="10" opacity="1" fill="#F0D25A" stroke="none"/>
-<rect x="20" y="496" width="856" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
-<rect x="20" y="455" width="738" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
+<rect x="20" y="579" width="767" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
+<rect x="20" y="537" width="974" height="10" opacity="1" fill="#F0D25A" stroke="none"/>
+<rect x="20" y="496" width="885" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
+<rect x="20" y="455" width="767" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="413" width="856" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="372" width="0" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="331" width="826" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
-<rect x="20" y="289" width="915" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
-<rect x="20" y="248" width="885" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
+<rect x="20" y="289" width="944" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
+<rect x="20" y="248" width="856" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="207" width="885" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="165" width="0" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
 <rect x="20" y="124" width="944" height="9" opacity="1" fill="#F0D25A" stroke="none"/>
@@ -273,16 +274,16 @@ CPU Usage (%)
 7
 </text>
 <text x="20" y="579" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-25
+26
 </text>
 <text x="20" y="537" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-32
+33
 </text>
 <text x="20" y="496" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-29
+30
 </text>
 <text x="20" y="455" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-25
+26
 </text>
 <text x="20" y="413" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 29
@@ -294,10 +295,10 @@ CPU Usage (%)
 28
 </text>
 <text x="20" y="289" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-31
+32
 </text>
 <text x="20" y="248" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-30
+29
 </text>
 <text x="20" y="207" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 30
@@ -329,7 +330,7 @@ Multiple rectangles
 <text x="1190" y="556" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Multiple RGB images
 </text>
-<text x="1171" y="514" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="1190" y="514" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Multiple ARGB images
 </text>
 <text x="1082" y="473" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">

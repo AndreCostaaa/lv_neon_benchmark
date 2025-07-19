@@ -1,7 +1,7 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
 <rect x="0" y="0" width="1200" height="800" opacity="1" fill="#F5F5F5" stroke="none"/>
 <text x="600" y="15" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="16.129032258064516" opacity="1" fill="#000000">
-FPS Comparison [drawsw_32b, neon_32b]
+1920x1080 - FPS [drawsw_32b, neon_32b]
 </text>
 <text x="10" y="388" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000" transform="rotate(270, 10, 388)">
 Scenes
@@ -9,6 +9,7 @@ Scenes
 <text x="605" y="790" dy="-0.5ex" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 FPS
 </text>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="19,36 19,739 "/>
 <polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="20,740 1189,740 "/>
 <text x="25" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 0.0

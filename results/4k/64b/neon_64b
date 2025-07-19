@@ -1,19 +1,19 @@
 Benchmark Summary (9.4.0 dev)
 Name, Avg. CPU, Avg. FPS, Avg. time, render time, flush time
-Empty screen, 23%, 49, 17, 17, 0
-Moving wallpaper, 25%, 21, 46, 46, 0
-Single rectangle, 7%, 99, 2, 2, 0
-Multiple rectangles, 25%, 59, 16, 16, 0
-Multiple RGB images, 32%, 17, 51, 51, 0
-Multiple ARGB images, 29%, 10, 87, 87, 0
-Rotated ARGB images, 25%, 3, 281, 281, 0
-Multiple labels, 29%, 10, 98, 98, 0
-Screen sized text, 0%, 99, 1, 1, 0
-Multiple arcs, 28%, 8, 110, 110, 0
-Containers, 31%, 4, 195, 195, 0
-Containers with overlay, 30%, 3, 272, 272, 0
-Containers with opa, 30%, 3, 249, 249, 0
+Empty screen, 23%, 51, 17, 17, 0
+Moving wallpaper, 25%, 21, 45, 45, 0
+Single rectangle, 7%, 98, 2, 2, 0
+Multiple rectangles, 26%, 62, 15, 15, 0
+Multiple RGB images, 33%, 17, 49, 49, 0
+Multiple ARGB images, 30%, 10, 87, 87, 0
+Rotated ARGB images, 26%, 4, 209, 209, 0
+Multiple labels, 29%, 11, 92, 92, 0
+Screen sized text, 0%, 98, 3, 3, 0
+Multiple arcs, 28%, 9, 97, 97, 0
+Containers, 32%, 5, 185, 185, 0
+Containers with overlay, 29%, 3, 262, 262, 0
+Containers with opa, 30%, 3, 236, 236, 0
 Containers with opa_layer, 0%, 0, 0, 0, 0
-Containers with scrolling, 32%, 4, 213, 213, 0
+Containers with scrolling, 32%, 4, 202, 202, 0
 Widgets demo, 0%, 98, 1, 1, 0
-All scenes avg.,23%, 32, 109, 109, 0
+All scenes avg.,23%, 32, 100, 100, 0
