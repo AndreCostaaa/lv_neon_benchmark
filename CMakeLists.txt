@@ -81,6 +81,11 @@ add_executable(${EXECUTABLE_NAME} src/main.c)
 target_include_directories(${EXECUTABLE_NAME} PRIVATE lvgl/src lvgl/demos)
 target_link_libraries(${EXECUTABLE_NAME} PRIVATE lvgl)
 
+set(TEST_RENDER_NAME "${TARGET_NAME}_render_test")
+add_executable(${TEST_RENDER_NAME} test/main.c)
+target_include_directories(${TEST_RENDER_NAME} PRIVATE lvgl/demos)
+target_link_libraries(${TEST_RENDER_NAME} PRIVATE lvgl lvgl_demos)
+
 message(STATUS "=== Build Configuration Summary ===")
 message(STATUS "Architecture: ${ARCH}")
 message(STATUS "Configuration: ${CONFIG}")
