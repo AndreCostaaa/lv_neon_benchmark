@@ -1,7 +1,3 @@
 [submodule "lvgl"]
 	path = lvgl
 	url = https://github.com/lvgl/lvgl.git
-[submodule "lvgl_neon64"]
-	path = lvgl_neon64
-	url = https://github.com/AndreCostaaa/lvgl.git
-	branch = feat-neon64-support
