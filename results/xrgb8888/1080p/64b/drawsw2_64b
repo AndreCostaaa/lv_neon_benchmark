@@ -1,0 +1,19 @@
+Benchmark Summary (9.4.0 dev)
+Name, Avg. CPU, Avg. FPS, Avg. time, render time, flush time
+Empty screen, 10%, 54, 6, 6, 0
+Moving wallpaper, 25%, 9, 105, 105, 0
+Single rectangle, 1%, 61, 0, 0, 0
+Multiple rectangles, 7%, 61, 4, 4, 0
+Multiple RGB images, 26%, 40, 23, 23, 0
+Multiple ARGB images, 26%, 56, 17, 17, 0
+Rotated ARGB images, 24%, 36, 27, 27, 0
+Multiple labels, 26%, 60, 15, 15, 0
+Screen sized text, 25%, 30, 31, 31, 0
+Multiple arcs, 24%, 58, 14, 14, 0
+Containers, 11%, 61, 5, 5, 0
+Containers with overlay, 26%, 17, 55, 55, 0
+Containers with opa, 18%, 58, 13, 13, 0
+Containers with opa_layer, 34%, 12, 75, 75, 0
+Containers with scrolling, 27%, 34, 27, 27, 0
+Widgets demo, 10%, 46, 17, 17, 0
+All scenes avg.,20%, 43, 27, 27, 0

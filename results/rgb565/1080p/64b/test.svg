@@ -1,7 +1,7 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
 <rect x="0" y="0" width="1200" height="800" opacity="1" fill="#F5F5F5" stroke="none"/>
 <text x="600" y="15" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="16.129032258064516" opacity="1" fill="#000000">
-1920x1080 - Render Time (ms) [drawsw_32b, neon_asm_32b, neon_intrinsics_32b]
+1920x1080 - Render Time (ms) [drawsw_64b, neon_asm_64b, neon_intrinsics_64b]
 </text>
 <text x="10" y="388" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000" transform="rotate(270, 10, 388)">
 Scenes
@@ -15,51 +15,47 @@ Render Time (ms)
 0.0
 </text>
 <polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="20,740 20,745 "/>
-<text x="184" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+<text x="196" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 20.0
 </text>
-<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="177,740 177,745 "/>
-<text x="341" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="189,740 189,745 "/>
+<text x="365" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 40.0
 </text>
-<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="334,740 334,745 "/>
-<text x="498" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="358,740 358,745 "/>
+<text x="535" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 60.0
 </text>
-<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="491,740 491,745 "/>
-<text x="655" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="528,740 528,745 "/>
+<text x="704" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 80.0
 </text>
-<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="648,740 648,745 "/>
-<text x="812" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="697,740 697,745 "/>
+<text x="874" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 100.0
 </text>
-<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="805,740 805,745 "/>
-<text x="969" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="867,740 867,745 "/>
+<text x="1043" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 120.0
 </text>
-<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="962,740 962,745 "/>
-<text x="1126" y="750" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-140.0
-</text>
-<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="1119,740 1119,745 "/>
-<rect x="20" y="728" width="31" height="11" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="686" width="94" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="1036,740 1036,745 "/>
+<rect x="20" y="728" width="33" height="11" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="686" width="101" height="12" opacity="1" fill="#DC5050" stroke="none"/>
 <rect x="20" y="645" width="0" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="604" width="31" height="11" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="562" width="86" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="521" width="219" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="480" width="510" height="11" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="438" width="188" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="604" width="33" height="11" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="562" width="93" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="521" width="237" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="480" width="415" height="11" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="438" width="194" height="12" opacity="1" fill="#DC5050" stroke="none"/>
 <rect x="20" y="397" width="0" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="356" width="164" height="11" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="314" width="329" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="273" width="526" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="231" width="471" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="356" width="169" height="11" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="314" width="338" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="273" width="533" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="231" width="474" height="12" opacity="1" fill="#DC5050" stroke="none"/>
 <rect x="20" y="190" width="974" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="149" width="337" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="107" width="7" height="12" opacity="1" fill="#DC5050" stroke="none"/>
-<rect x="20" y="66" width="243" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="149" width="347" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="107" width="8" height="12" opacity="1" fill="#DC5050" stroke="none"/>
+<rect x="20" y="66" width="245" height="12" opacity="1" fill="#DC5050" stroke="none"/>
 <text x="20" y="728" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 4
 </text>
@@ -79,55 +75,55 @@ Render Time (ms)
 28
 </text>
 <text x="20" y="480" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-65
+49
 </text>
 <text x="20" y="438" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-24
+23
 </text>
 <text x="20" y="397" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 0
 </text>
 <text x="20" y="356" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-21
+20
 </text>
 <text x="20" y="314" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-42
+40
 </text>
 <text x="20" y="273" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-67
+63
 </text>
 <text x="20" y="231" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-60
+56
 </text>
 <text x="20" y="190" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-124
+115
 </text>
 <text x="20" y="149" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-43
+41
 </text>
 <text x="20" y="107" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 1
 </text>
 <text x="20" y="66" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-31
+29
 </text>
-<rect x="20" y="716" width="31" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="675" width="86" height="11" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="716" width="33" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="675" width="93" height="11" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="633" width="0" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="592" width="31" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="550" width="78" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="509" width="141" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="468" width="479" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="426" width="149" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="592" width="33" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="550" width="93" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="509" width="169" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="468" width="389" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="426" width="203" height="12" opacity="1" fill="#64B464" stroke="none"/>
 <rect x="20" y="385" width="0" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="344" width="180" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="302" width="243" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="261" width="369" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="220" width="314" height="11" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="178" width="581" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="137" width="259" height="12" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="96" width="7" height="11" opacity="1" fill="#64B464" stroke="none"/>
-<rect x="20" y="54" width="180" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="344" width="203" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="302" width="347" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="261" width="584" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="220" width="457" height="11" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="178" width="872" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="137" width="355" height="12" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="96" width="8" height="11" opacity="1" fill="#64B464" stroke="none"/>
+<rect x="20" y="54" width="237" height="12" opacity="1" fill="#64B464" stroke="none"/>
 <text x="20" y="716" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 4
 </text>
@@ -141,66 +137,66 @@ Render Time (ms)
 4
 </text>
 <text x="20" y="550" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-10
+11
 </text>
 <text x="20" y="509" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-18
+20
 </text>
 <text x="20" y="468" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-61
+46
 </text>
 <text x="20" y="426" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-19
+24
 </text>
 <text x="20" y="385" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 0
 </text>
 <text x="20" y="344" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-23
+24
 </text>
 <text x="20" y="302" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-31
+41
 </text>
 <text x="20" y="261" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-47
+69
 </text>
 <text x="20" y="220" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-40
+54
 </text>
 <text x="20" y="178" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-74
+103
 </text>
 <text x="20" y="137" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-33
+42
 </text>
 <text x="20" y="96" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 1
 </text>
 <text x="20" y="54" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-23
+28
 </text>
-<rect x="20" y="704" width="31" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="663" width="94" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="704" width="33" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="663" width="93" height="12" opacity="1" fill="#6496E6" stroke="none"/>
 <rect x="20" y="621" width="0" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="580" width="31" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="539" width="78" height="11" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="497" width="141" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="456" width="439" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="415" width="164" height="11" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="373" width="7" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="332" width="164" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="291" width="267" height="11" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="249" width="392" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="208" width="337" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="166" width="722" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="125" width="274" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="84" width="7" height="12" opacity="1" fill="#6496E6" stroke="none"/>
-<rect x="20" y="42" width="196" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="580" width="33" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="539" width="93" height="11" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="497" width="169" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="456" width="389" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="415" width="203" height="11" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="373" width="0" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="332" width="194" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="291" width="338" height="11" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="249" width="508" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="208" width="423" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="166" width="864" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="125" width="347" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="84" width="8" height="12" opacity="1" fill="#6496E6" stroke="none"/>
+<rect x="20" y="42" width="228" height="12" opacity="1" fill="#6496E6" stroke="none"/>
 <text x="20" y="704" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 4
 </text>
 <text x="20" y="663" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-12
+11
 </text>
 <text x="20" y="621" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 0
@@ -209,103 +205,103 @@ Render Time (ms)
 4
 </text>
 <text x="20" y="539" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-10
+11
 </text>
 <text x="20" y="497" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-18
+20
 </text>
 <text x="20" y="456" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-56
+46
 </text>
 <text x="20" y="415" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-21
+24
 </text>
 <text x="20" y="373" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-1
+0
 </text>
 <text x="20" y="332" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-21
+23
 </text>
 <text x="20" y="291" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-34
+40
 </text>
 <text x="20" y="249" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-50
+60
 </text>
 <text x="20" y="208" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-43
+50
 </text>
 <text x="20" y="166" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-92
+102
 </text>
 <text x="20" y="125" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-35
+41
 </text>
 <text x="20" y="84" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
 1
 </text>
 <text x="20" y="42" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-25
+27
 </text>
-<text x="129" y="722" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="138" y="722" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Empty screen
 </text>
-<text x="192" y="680" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="206" y="680" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Moving wallpaper
 </text>
-<text x="98" y="639" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="104" y="639" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Single rectangle
 </text>
-<text x="129" y="598" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="138" y="598" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Multiple rectangles
 </text>
-<text x="184" y="556" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="197" y="556" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Multiple RGB images
 </text>
-<text x="318" y="515" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="341" y="515" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Multiple ARGB images
 </text>
-<text x="609" y="474" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="519" y="474" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Rotated ARGB images
 </text>
-<text x="287" y="432" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="308" y="432" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Multiple labels
 </text>
-<text x="106" y="391" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="104" y="391" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Screen sized text
 </text>
-<text x="279" y="350" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="308" y="350" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Multiple arcs
 </text>
-<text x="428" y="308" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="452" y="308" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Containers
 </text>
-<text x="624" y="267" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="689" y="267" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Containers with overlay
 </text>
-<text x="569" y="226" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="579" y="226" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Containers with opa
 </text>
-<text x="1072" y="184" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="1078" y="184" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Containers with opa_layer
 </text>
-<text x="436" y="143" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="460" y="143" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Containers with scrolling
 </text>
-<text x="106" y="101" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="113" y="101" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 Widgets demo
 </text>
-<text x="342" y="60" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
+<text x="350" y="60" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="8.064516129032258" opacity="1" fill="#000000">
 All scenes avg.
 </text>
 <text x="1084" y="368" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-drawsw_32b
+drawsw_64b
 </text>
 <text x="1084" y="383" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-neon_asm_32b
+neon_asm_64b
 </text>
 <text x="1084" y="398" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="9.67741935483871" opacity="1" fill="#000000">
-neon_intrinsics_32b
+neon_intrinsics_64b
 </text>
 <polyline fill="none" opacity="1" stroke="#DC5050" stroke-width="1" points="1054,372 1064,372 "/>
 <polyline fill="none" opacity="1" stroke="#64B464" stroke-width="1" points="1054,387 1064,387 "/>
