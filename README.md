@@ -33,7 +33,6 @@ cmake -B build_64b_neon -DARCH=64b -DCONFIG=neon -DCMAKE_TOOLCHAIN_FILE=cmake_to
 
 To use the normal `draw sw` implementation use `-DCONFIG=none`.
 
-
 Then simply build your benchmark application:
 
 ```bash
@@ -65,14 +64,7 @@ export SSH_ADDR=changeme
 scp ./build_64b_neon/bin/64b_neon_render_test ./build_64b_none/bin/64b_none_render_test $SSH_USER@$SSH_ADDR:~
 ```
 
-3. Prepare the workspace
-
-```bash
-# Generate the reference images folder
-ssh $SSH_USER@$SSH_ADDR "mkdir -p ref_images/rgb565"
-```
-
-4. Generate the reference images by running the test with the standard SW renderer
+3. Generate the reference images by running the test with the standard SW renderer
 ```bash
 ssh $SSH_USER@$SSH_ADDR "./64b_none_render_test"
 ```
@@ -86,7 +78,7 @@ The warnings complaining about the reference images not existing and informing y
 [Warn]	(0.000, +0)	screenshot_compare: ref_images/rgb565/demo_render_conical_gradient_opa_128.png was not found, creating it now from the rendered screen lv_test_screenshot_compare.c:118
 ```
 
-5. Finally run the test with the NEON SW renderer implementation
+4. Finally run the test with the NEON SW renderer implementation
 
 ```bash
 ssh $SSH_USER@$SSH_ADDR "./64b_neon_render_test"
